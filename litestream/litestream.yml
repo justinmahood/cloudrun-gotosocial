@@ -1,0 +1,4 @@
+dbs:
+  - path: /gotosocial/storage/sqlite.db
+    replicas:
+      - url: ${REPLICA_URL}
